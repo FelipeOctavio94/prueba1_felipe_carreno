@@ -4,7 +4,7 @@ body{
 
 .CO{
 display: flex;
-background-color: aliceblue;
+background-color: white;
 justify-content: space-between;
 }
 
@@ -34,4 +34,27 @@ list-style-type: none;
     background-image: url('../img/consolas.jpg');
 }
 
+.seccion2{
+    text-align: center;
+}
+.cons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 30px;
+}
 
+.cons h2{
+
+    text-align: center;
+}
+.consolass{
+    box-shadow: 3px 3px 10px gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.consolass img{
+    height: auto;
+    width: 100%;
+}
