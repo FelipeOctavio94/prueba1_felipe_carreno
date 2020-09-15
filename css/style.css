@@ -4,12 +4,20 @@ body{
 
 .CO{
 display: flex;
+background-color: aliceblue;
 justify-content: space-between;
 }
 
-.menu ul{
-display: flex;
 
+
+.menu{
+margin-right: 500px;
+
+}
+
+.menu ul{
+    display: flex;
+    
 }
 
 .menu ul li{
@@ -23,5 +31,7 @@ list-style-type: none;
 }
 
 .seccion1{
-    background-img: url('../img/Xbox-One_.jpg');
+    background-image: url('../img/consolas.jpg');
 }
+
+
