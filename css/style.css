@@ -1,5 +1,6 @@
-body{}
+body{
 
+}
 
 .CO{
 display: flex;
@@ -22,5 +23,5 @@ list-style-type: none;
 }
 
 .seccion1{
-    background: url("../img/858b94d4-0ca6-4e74-ac9f-38565c49f2df.jpg") ;
+    background-img: url('../img/Xbox-One_.jpg');
 }
