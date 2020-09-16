@@ -3,13 +3,21 @@ background-color: teal;
 }
 
 .seccion1{
+margin-top: 100px;
 display: flex;
-background-color: teal;
+background-color: gainsboro;
 justify-content: space-between;
+background-repeat: no-repeat;
+background-size: 2000px;
+}
+
+.seccion1 h1{
+    margin-left: 10px;
 }
 
 .menu ul{
     display: flex;
+    margin-right: 10px;
     
 }
 
@@ -25,6 +33,13 @@ list-style-type: none;
 
 .seccion2{
     text-align: center;
+    background: url(../img/consolas.jpg);
+    background-repeat: no-repeat;
+    background-size: 1800px;
+    align-items: center;
+    justify-items: center;
+    background-color: gainsboro;
+
 }
 .cons{
     display: grid;
@@ -33,6 +48,11 @@ list-style-type: none;
     padding: 30px;
 }
 
+.seccion3 {
+    padding-top: 100px;
+    background-color: gainsboro;
+    padding-bottom: 100px;
+}
 .seccion3 h2{
     text-align: center;
 }
@@ -51,10 +71,20 @@ list-style-type: none;
     height: auto;
     width: 100%;
 }
+.seccion4{
+    background-color:gainsboro;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top:100px;
+    border: green solid 1px;
+}
+
 
 .seccion4 img{
     height: 100%;
-    width: auto;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .seccion4 p{
@@ -68,3 +98,60 @@ list-style-type: none;
     padding: 100px;
     font-size: 50px;
 }
+
+.seccion5{
+    padding-top: 50px;
+    background-color:gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.seccion5 button{
+    padding: 40px;
+    width: 25%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.seccion5 input{
+    padding: 40px;
+    width: 40%;
+}
+
+
+ .seccion6{
+    padding:100px 50px 100px 50px;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes ul li a img{
+    height: 30px;
+}
+
+.redes ul{
+    display: flex;
+}
+.redes ul li{
+    list-style-type: none;
+}
+.redes ul li a{
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.menu2 ul{
+    display: flex;
+    font-size:px;
+    color: gainsboro;
+}
+.menu2 ul li{
+    list-style-type: none;
+}
+.menu2 ul li a{
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
